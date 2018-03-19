@@ -1,0 +1,204 @@
+/* -- REUSABLE -- */
+a{
+    text-decoration: none;
+}
+a:link,a:visited {color:#fff;}
+
+i {font-size:50px; padding:5px;}
+/* :active – A link that’s being pressed down by a mouse (or finger).
+a:hover – A link with the user’s mouse over it.
+*/
+
+/* -- LAYOUT -- */
+body{    
+    color:#FDFFFC;   
+    font-family: 'Roboto', sans-serif;
+}
+.page {
+    min-height:90vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* =========== navbar ========== */
+.navbar {
+    height:40px;    
+    padding: 0px 10px;
+    border-bottom: 1px solid #fff;
+    align-self: stretch;
+    flex-wrap:wrap;
+}
+.navbar, .branding, .menu, .menu__link  {
+    min-height:40px;    
+    display:flex;
+    align-items:center;
+}
+.branding{
+    text-transform: uppercase;
+    letter-spacing: 1.35px;       
+}
+.branding__logo {
+    margin-right:10p; 
+}
+.menu {   
+    flex-wrap:wrap;
+    flex-grow:1;
+    justify-content: flex-end;    
+}
+.menu__link {
+    font-size: 0.9rem;
+    text-decoration: none;
+    margin:0px 5px;
+    padding:0px 5px;    
+}
+/* ----- PAGES ------ */
+.title {
+    font-size: 15rem;
+    font-weight:900;
+}
+.title__subtitle {
+    width: 60%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    letter-spacing: 0.07rem;
+    margin-top: 1rem;
+    text-align: center;   
+}
+.wrapper60{
+    width:60%;
+}
+.wrapper40{
+    width:40%;
+}
+.section-text{
+    letter-spacing: 0.05rem;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.6rem;
+    font-weight:100;
+}
+.section-list{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:20px;
+    justify-content: space-around;
+}
+.section-item{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+/* ========= page-top=========== */
+.page-top {       
+    background-color:  #1dc2ea;
+}
+.title--main {
+    display:flex;
+    flex-grow:1;    
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25rem;     
+}
+.title--main .title__subtitle {        
+}
+/* =========== page-about============== */
+.page-about {
+    background-color: #ffb750;
+    }
+.page-about__description{   
+}
+.company{   
+    margin-top:20px;
+}
+.company__list {    
+    margin-top:20px;    
+}
+.company__item {
+    text-align: center;
+}
+/* =============== page-3 TECHNOLOGIE============ */
+.page-skills{
+    background-color: #EA526F;    
+}
+.technology-list{
+    margin-top: 20px;
+    min-height: 250px;
+    align-content: space-evenly;
+}
+.technology-list__item{    
+    font-size:1.1rem;
+    padding:10px 25px;   
+}
+/* =============== page-4 PROJEKTY============ */
+.page-projects{
+    background-color: #5dbf6a;
+}
+.project-list {
+    margin-top: 20px;
+    min-height: 230px;
+    align-content: space-evenly;
+}
+.project-list__item {
+    font-size:1.1rem;
+    margin:20px 25px;    
+    position:relative;
+}
+.project-list li a{    
+}
+.project-list img {    
+}
+.project-list__item-name {
+    position: absolute;
+    top:50%;
+    left:0;
+    width:100%;
+    text-align: center;
+    font-weight:400;
+    font-size:2rem;
+}
+.devicon-github-plain {
+    font-size:4rem;
+text-decoration: none;}
+/* =============== page-5 KONTAKT============ */
+.page-contact {
+    background-color: #fd766b;
+}
+/* =================== footer ================= */
+footer {
+    background-color:#F7E7CE;
+}
+/* ~~~~~~ media query ~~~~~~ */
+@media only screen and (max-width: 700px) {
+    h1 { 
+       font-size: 34vw; 
+    }
+    h2{
+        font-size: 16vw;
+    }
+    .page p {
+        font-size: 1.9vh;
+        width:auto;        
+    }
+    .page-2 p{
+        font-size: 1.8vh;
+        width: 80%;
+        line-height: 1.8rem;
+        letter-spacing: 0.05rem;
+        text-align: center;
+        font-weight: 400;
+    
+    }
+    h2 {margin-top:20px;}
+    .menu__link {
+        padding:0px;
+    }
+    .company-list{margin-top:10px;}
+    
+ }
+
+
+
+
