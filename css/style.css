@@ -4,7 +4,7 @@ a{
 }
 a:link,a:visited {color:#fff;}
 
-i {font-size:50px;}
+i {font-size:50px; margin-bottom:5px;}
 /* :active – A link that’s being pressed down by a mouse (or finger).
 a:hover – A link with the user’s mouse over it.
 */
@@ -178,10 +178,19 @@ footer {
     background-color:#F7E7CE;
 }
 /* ~~~~~~ media query ~~~~~~ */
+@media only screen and (max-width: 1450px){
+    .title{
+        font-size: 16.7vw;
+        }
+    .title--main{
+        font-size: 27.5vw;
+    }    
+}
+@media only screen and (max-width: 1150px){
+   
+}
 @media only screen and (max-width: 700px) {
-    h1 { 
-       font-size: 34vw; 
-    }
+   
     h2{
         font-size: 16vw;
     }
