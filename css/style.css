@@ -4,7 +4,7 @@ a{
 }
 a:link,a:visited {color:#fff;}
 
-i {font-size:50px; padding:5px;}
+i {font-size:50px;}
 /* :active – A link that’s being pressed down by a mouse (or finger).
 a:hover – A link with the user’s mouse over it.
 */
@@ -131,6 +131,13 @@ body{
 .technology-list__item{    
     font-size:1.1rem;
     padding:10px 25px;   
+}
+.technology-list__icon{
+    display: block;
+    margin: 0px auto;
+    width: 65px;
+    height: 75px;
+    margin-top: 10px;
 }
 /* =============== page-4 PROJEKTY============ */
 .page-projects{
